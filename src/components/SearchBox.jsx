@@ -5,7 +5,7 @@ import './Style.css';
 import { useState } from 'react';
 
 function SearchBox({ updateinfo }) {
-    const apiUrl = process.env.REACT_APP_API_URL;
+    const apiUrl ='https://api.openweathermap.org/data/2.5/weather';
     const apiKey = process.env.REACT_APP_API_KEY;
 
     let [city, setcity] = useState('');
