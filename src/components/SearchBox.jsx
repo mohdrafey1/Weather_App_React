@@ -42,6 +42,7 @@ function SearchBox({ updateinfo }) {
             evt.preventDefault();
             console.log(city);
             setcity('');
+            seterror(false);
             let newInfo = await getWeatherInfo();
             updateinfo(newInfo);
         } catch (err) {

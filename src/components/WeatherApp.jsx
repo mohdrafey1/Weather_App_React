@@ -21,6 +21,7 @@ function WeatherApp() {
         <div className="weatherapp">
             <SearchBox updateinfo={updateInfo} />
             <InfoBox info={WeatherInfo} />
+            <button>click</button>
         </div>
     );
 }
