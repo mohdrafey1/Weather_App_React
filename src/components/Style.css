@@ -1,0 +1,15 @@
+/* Search Box */
+.searchbox {
+    text-align: center;
+    margin: 50px 0 25px 0;
+}
+
+/* infobox */
+.infobox {
+    text-align: center;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+}
