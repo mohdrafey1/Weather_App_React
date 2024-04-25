@@ -1,4 +1,5 @@
 **Weather App using React**
+
 This project is a simple weather application built using React.js and utilizes an API to fetch real-time weather data. The application displays weather information for a specified location, providing users with current weather conditions as well as a forecast.
 
 ### Features:
